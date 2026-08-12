@@ -22291,7 +22291,7 @@ input[readonly] {
 .calendar-main-btn {
   position: fixed;
   bottom: 24px;
-  left: calc(50% - 73px);
+  left: calc(50% - 66px);
   display: inline-block;
   z-index: 1050;
 }
