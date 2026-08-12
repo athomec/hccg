@@ -22150,6 +22150,9 @@ input[readonly] {
       flex-shrink: 0;
   white-space: nowrap;
 }
+.calendar-tabs-link:last-child {
+  margin-right: 0;
+}
 .calendar-tabs-link.active {
   background: #fff;
 }
@@ -22256,6 +22259,12 @@ input[readonly] {
 .calendar-event-con {
   font-size: 0.875rem;
   color: #323232;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 .calendar-event-info li {
   display: -webkit-box;
