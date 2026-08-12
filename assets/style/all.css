@@ -22314,6 +22314,7 @@ input[readonly] {
           box-shadow: 0 0 6px, #ced4da;
   position: absolute;
   font-size: 0.875rem;
+  border: none;
 }
 .calendar-map-pin::before {
   content: "";
